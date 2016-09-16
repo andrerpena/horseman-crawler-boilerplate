@@ -1,6 +1,6 @@
 {
   "name": "tjpa",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A horseman scraper boilerplate",
   "main": "./index.js",
   "scripts": {

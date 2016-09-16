@@ -27,9 +27,10 @@ horseman
      pdf = "http://dje.tjpa.jus.br" + x;
      console.log("Achei o documento para donwload: ".green + pdf.blue);
    })
-  .log("Downloading...".green)
+  .log("Baixando...".green)
   .then(() => spinner.start())
   .then(() => download(pdf))
   .then((data) => fs.writeFileSync(date.replace(/\//g, "") + '.pdf', data))
   .then(() => spinner.stop())
-  .then(() => process.exit());
+  .log("Baixado".green)
+  .then(() => process.exit())
