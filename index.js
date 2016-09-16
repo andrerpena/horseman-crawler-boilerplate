@@ -8,7 +8,11 @@ var fs = require('fs');
 require("colors");
 
 var date = process.argv[2];
-if(!date) throw Error('You did not specify the date');
+
+if(!date) {
+  console.log('Voce precisa informar uma data nesse formato DD/MM/YYYY'.red);
+  process.exit();
+} 
 
 var pdf;
 
