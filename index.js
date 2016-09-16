@@ -20,7 +20,7 @@ horseman
   .userAgent('Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0')
   .log("Consultando TJPA na data ".green + date.blue + "...".green )
   .then(() => spinner.start())
-  .post('http://dje.tjpa.jus.br/dje_consulta/consultarDiario.do', "data=15/09/2016")
+  .post('http://dje.tjpa.jus.br/dje_consulta/consultarDiario.do', "data=" + date)
   .then(() => spinner.stop())
   .evaluate(function() { return $($("#pageBox1 p a")[1]).attr("href") })
   .then(x => {
