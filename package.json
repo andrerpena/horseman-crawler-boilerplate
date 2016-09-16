@@ -1,6 +1,6 @@
 {
   "name": "tjpa",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A horseman scraper boilerplate",
   "main": "./index.js",
   "scripts": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrerpena/horseman-scraper-boilerplate.git"
+    "url": "git+https://github.com/andrerpena/tjpa.git"
   },
   "author": "Andre Pena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrerpena/horseman-scraper-boilerplate/issues"
+    "url": "https://github.com/andrerpena/tjpa/issues"
   },
-  "homepage": "https://github.com/andrerpena/horseman-scraper-boilerplate#readme",
+  "homepage": "https://github.com/andrerpena/tjpa#readme",
   "dependencies": {
     "@exponent/simple-spinner": "^1.0.2",
     "colors": "^1.1.2",
